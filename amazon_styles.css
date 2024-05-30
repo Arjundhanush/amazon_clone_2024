@@ -1,0 +1,385 @@
+#navbar{
+    background-color:#0f1111;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+#logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 113px;
+    padding-left:2px;
+}
+*{  margin:0;
+    font-family: Arial;
+}
+.logo_border{
+    border:1.5px solid transparent;
+    
+}
+.logo_border:hover{
+    border:1.5px solid white;
+}
+#add-1{
+    padding-left:15px;
+    color:#cccccc;
+    font-size: 12px;
+}
+#add-2{
+    font-weight:bold;
+    color:#ffffff;
+    font-size:15px;
+}
+#nav_search{
+    display:flex;
+    background-color: orange;
+    height:38px;
+    width:680px;
+    border-radius:5px;
+}
+#nav_select{
+    background-color: #f3f3f3;
+    width:40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+.search_input{
+    font-size: large;
+    width:580px;
+    border:none;
+}
+#search_bar_icon{
+   display:flex;
+   width:45px;
+   justify-content: center;
+   align-items: center;
+
+}
+#choose_lan{
+    background-color: #0f1111;
+    color:white;
+    border:none;
+    font-weight: bolder;
+}
+#signin{
+    background-color: #0f1111;
+    color:white;
+    border:none;
+}
+#nav_signin_top{
+    color:white;
+}
+#nav_signin_bottom{
+    color:white;
+}
+#returns_top{
+    color: white;
+}
+#returns_bottom{
+    color: white;
+}
+#cart_logo{
+    display:flex;
+}
+#cart_word{
+    color:white;
+    font-weight: bold;
+    align-self:flex-end;
+}
+#nav_cart i{
+font-size:30px;
+}
+#pannel{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#222f3d;
+    height:40px;
+    align-items: center;
+}
+#pannel_options{
+    font-weight: medium;
+    display:flex;
+    color:white;
+    
+
+}
+#pannel_elect{
+    color:white;
+    font-weight:bold;
+
+}
+#pannel_ops{
+    font-weight: medium;
+    display:flex;
+    color:white;
+    width:70%;
+}
+#pannel_ops p{
+  margin:10px;
+}
+#hero_sec{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#hero_msg{
+    background-color: white;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 50px;
+}
+#hero_msg a{
+    color:#007185;
+    text-decoration: none;
+    
+}
+#shop_1st{
+    display:flex;
+    background-color: grey;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#health_personal_care{
+    height:400px;
+   background-color: white;
+    width:23%;
+    margin: 10px;
+    padding:15px;
+
+}
+#box1_img{
+    height:300px;
+    width:100%;
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+}
+#health_personal_care a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#fashion_picks a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box2_img{
+    height:300px;
+    width:100%;
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+}
+#fashion_picks{
+    height:400px;
+   background-color: white;
+    width:23%;
+    margin: 10px;
+    padding:15px;
+
+}
+#clothes a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box3_img{
+    height:300px;
+    width:100%;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+}
+#clothes{
+    height:400px;
+   background-color: white;
+    width:23%;
+    margin: 10px;
+    padding:15px;
+
+}
+#furniture a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box4_img{
+    height:300px;
+    width:100%;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+}
+#furniture{
+    height:400px;
+   background-color: white;
+    width:23%;
+    padding:15px;
+    margin: 10px;
+}
+#mobile a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box5_img{
+    height:300px;
+    width:100%;
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+}
+#mobile{
+    height:400px;
+   background-color: grey;
+    width:23%;
+    padding:15px;
+    margin: 10px;
+}
+#shop2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#box6_img{
+    height:300px;
+    width:100%;
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+}
+#pets{
+    height:400px;
+   background-color: grey;
+    width:23%;
+    padding:15px;
+    margin: 10px;
+}
+#pets a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box7_img{
+    height:300px;
+    width:100%;
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+}
+#kids{
+    height:400px;
+   background-color: grey;
+    width:23%;
+    padding:15px;
+    margin: 10px;
+}
+#kids a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+#box8_img{
+    height:300px;
+    width:100%;
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+}
+#ladies_fashion{
+    height:400px;
+   background-color: grey;
+    width:23%;
+    padding:15px;
+    margin: 10px;
+}
+#ladies_fashion a{
+    color:#007185;
+    display:block;
+    text-decoration:none;
+    padding-top:10px;
+}
+
+.box:hover{
+    transition: margin;
+}
+#pannel1{
+    display:flex;
+    justify-content: center;
+    background-color: #374758;
+    color:white;
+    height:50px;
+    align-items: center;
+}
+#pannel2{
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    height:300px;
+}
+#pannel2 ul{
+    margin-top:20px;
+   list-style: none;
+}
+.pannel2_bold{
+    font-weight: bold;
+}
+#pannel3{
+    display:flex;
+    height:68px;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+#foot_logo{
+    height:68px;
+    width:150px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+#foot_lang{
+    background-color: black;
+    color:white;
+    border: none;
+}
+#foot_eng{
+    border:0.1px solid white;
+    height:25px;
+    border-radius:5%;
+}
+#usd{
+    border:0.1px solid white;
+    height:25px;
+    border-radius:5%;
+}
+#dollar{
+    background-color: black;
+    color:white;
+    border: none;
+
+}
+#us{
+    border:0.1px solid white;
+    height:25px;
+    border-radius:5%;
+}
+#united_states{
+    background-color: black;
+    color:white;
+    border: none;
+}
